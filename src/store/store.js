@@ -7,7 +7,7 @@ Vue.use(Vuex);
 const store = new Vuex.Store({
   state: {
     apiBase: "https://api.openweathermap.org/data/2.5/",
-    apiKey: "a710476318e3c53b3b47da86204ca0d7",           // Your API Key
+    apiKey: "YOUR_API_KEY",   // Create Api Key from https://openweathermap.org
     defaultSearch: "istanbul",
     search: "",
     isError: false,
