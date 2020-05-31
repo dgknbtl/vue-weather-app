@@ -97,11 +97,15 @@ body {
   box-shadow: 0 0 70px fade(black, 30);
   z-index: 9999;
   background-color: var(--cardBgColor);
+
+  @media (max-height: 767px) {
+    padding: 30px;
+  } 
 }
 
-@media (max-width:480px) {
-  .card{
-    padding:30px;
+@media (max-width: 480px) {
+  .card {
+    padding: 30px;
   }
 }
 
@@ -117,11 +121,14 @@ body {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color:#fff;
-    font-weight:500;
-    text-shadow: 0 2px 3px fade(black,20);
-    span{font-size:18px; margin-left:5px;}
-    &:hover{
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 0 2px 3px fade(black, 20);
+    span {
+      font-size: 18px;
+      margin-left: 5px;
+    }
+    &:hover {
       text-decoration: underline;
     }
   }

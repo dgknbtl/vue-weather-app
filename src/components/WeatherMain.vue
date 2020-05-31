@@ -93,4 +93,16 @@ export default {
     }
   }
 }
+
+@media (max-height: 767px) {
+  .weather-main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .weather-temp {
+      width: 125px;
+      height: 125px;
+      margin: 30px 0;
+    }
+  }
+}
 </style>
