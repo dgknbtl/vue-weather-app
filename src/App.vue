@@ -9,7 +9,7 @@
     </transition>
     <WeatherAnimate />
     <div class="footer-text">
-      <a href="https://github.com/dogukanbatal/vue-weather-app" target="_blank" class="link">
+      <a href="https://github.com/ashwaththadishetty13/vue-weather-app" target="_blank" class="link">
         <GithubIcon size="1x"></GithubIcon>
         <span>Github Repository</span>
       </a>

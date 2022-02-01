@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Weather app using Vue.js, OpenWeatherMap.",
-  "author": "Doğukan Batal <dogukanbatal@gmail.com>",
+  "author": "Ashwath Thadishetty <ashwaththadishetty13@gmail.com>",
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
